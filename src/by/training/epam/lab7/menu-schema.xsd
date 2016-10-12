@@ -3,7 +3,8 @@
 
 <schema xmlns="http://www.w3.org/2001/XMLSchema"
         targetNamespace="www.training.by/dishes"
-        xmlns:tnc="www.training.by/dishes">
+        xmlns:tnc="www.training.by/dishes"
+        elementFormDefault="qualified">
 
     <element name="dishes">
         <complexType>

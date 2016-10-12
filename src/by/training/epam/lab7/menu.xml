@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<dis:dishes xmlns:dis="www.training.by/dishes">
+<dishes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="www.training.by/dishes"
+        xsi:schemaLocation="www.training.by/dishes  menu-schema.xsd">
 
     <!-- Холодные закуски -->
 
@@ -289,4 +291,4 @@
         <type>Завтраки</type>
     </dish>
 
-</dis:dishes>
+</dishes>
