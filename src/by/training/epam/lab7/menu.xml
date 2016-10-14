@@ -11,6 +11,7 @@
         <name>Ассорти рыбное</name>
         <description>Слабосоленная форель. семга</description>
         <portion>100/20/15</portion>
+        <price><value>150</value></price>
         <type>Холодные закуски</type>
     </dish>
 
@@ -19,6 +20,7 @@
         <name>Тарталетки с красной икрой</name>
         <description>Тарталетки с красной икрой</description>
         <portion>50/50</portion>
+        <price><value>150</value></price>
         <type>Холодные закуски</type>
     </dish>
 
@@ -27,6 +29,7 @@
         <name>Закуска по-русски</name>
         <description>Кусочки атлантической сельди с отварным картофелем, луком, лимоном и зеленью</description>
         <portion>70/50/2/10</portion>
+        <price><value>150</value></price>
         <type>Холодные закуски</type>
     </dish>
 
@@ -35,6 +38,7 @@
         <name>Куринный рулет</name>
         <description>Куринный рулет собственного производства</description>
         <portion>100/5</portion>
+        <price><value>150</value></price>
         <type>Холодные закуски</type>
     </dish>
 
@@ -43,6 +47,7 @@
         <name>Бастурма</name>
         <description>Вяленная вырезка из говяжьего мяса</description>
         <portion>50/5</portion>
+        <price><value>150</value></price>
         <type>Холодные закуски</type>
     </dish>
 
@@ -51,6 +56,7 @@
         <name>Ассорти мясное</name>
         <description>Нарезка из буженины, бастурмы, куриного рулета собственного произваодства и колбасы</description>
         <portion>100/30</portion>
+        <price><value>150</value></price>
         <type>Холодные закуски</type>
     </dish>
 
@@ -59,6 +65,7 @@
         <name>Язык отварной</name>
         <description>Нарезка нежного говяжьего языка, подается с хреном</description>
         <portion>80/20/1</portion>
+        <price><value>150</value></price>
         <type>Холодные закуски</type>
     </dish>
 
@@ -67,9 +74,18 @@
         <name>Ассорти баклажаны</name>
         <description>Жаренные баклажаны с помидорами</description>
         <price>
-            <position><name>с помидорами</name></position>
-            <position><name>с чесноком</name></position>
-            <position><name>с орехами</name></position>
+            <position>
+                <name>с помидорами</name>
+                <value>150</value>
+            </position>
+            <position>
+                <name>с чесноком</name>
+                <value>150</value>
+            </position>
+            <position>
+                <name>с орехами</name>
+                <value>150</value>
+            </position>
         </price>
         <portion>150/10</portion>
         <type>Холодные закуски</type>
@@ -80,6 +96,7 @@
         <name>Соленья по-домашнему</name>
         <description>Маринованные овощи</description>
         <portion>150/10</portion>
+        <price><value>150</value></price>
         <type>Холодные закуски</type>
     </dish>
 
@@ -88,6 +105,7 @@
         <name>Бабушкины угощения</name>
         <description>Ассорти из маринованных грибов</description>
         <portion>120/20/10</portion>
+        <price><value>150</value></price>
         <type>Холодные закуски</type>
     </dish>
 
@@ -96,6 +114,7 @@
         <name>Сырная тарелка</name>
         <description>Сыры Чечел, дор блю, росссийский мраморный</description>
         <portion>100/5</portion>
+        <price><value>150</value></price>
         <type>Холодные закуски</type>
     </dish>
 
@@ -104,6 +123,7 @@
         <name>Брынза</name>
         <description>Рассольный сыр, изготавлвиаемый из овечьего молока</description>
         <portion>75/5</portion>
+        <price><value>150</value></price>
         <type>Холодные закуски</type>
     </dish>
 
@@ -112,6 +132,7 @@
         <name>Зелень</name>
         <description>Кинза, лук, петрушка, укроп, базилик</description>
         <portion>30</portion>
+        <price><value>150</value></price>
         <type>Холодные закуски</type>
     </dish>
 
@@ -120,6 +141,7 @@
         <name>Ассорти овощное</name>
         <description>Свежие помидоры, болгарский перец, огурцы, редис и зелень</description>
         <portion>150/10</portion>
+        <price><value>150</value></price>
         <type>Холодные закуски</type>
     </dish>
 
@@ -128,6 +150,7 @@
         <name>Овощной букет</name>
         <description>Корейская морковь, капуста, фунчоза</description>
         <portion>150/10</portion>
+        <price><value>150</value></price>
         <type>Холодные закуски</type>
     </dish>
 
@@ -139,6 +162,7 @@
             болгарский перец, укроп, базилик, кинза, лист салата, зелень
         </description>
         <portion>150/40</portion>
+        <price><value>150</value></price>
         <type>Холодные закуски</type>
     </dish>
 
@@ -147,6 +171,7 @@
         <name>Сеньор Помидор</name>
         <description>Помидор, фаршированный сырным соусом</description>
         <portion>150/1</portion>
+        <price><value>150</value></price>
         <type>Холодные закуски</type>
     </dish>
 
@@ -154,6 +179,7 @@
         <image>http:\\www.training.by\image.jpg</image>
         <name>Фестиваль салатов</name>
         <portion>400/1</portion>
+        <price><value>150</value></price>
         <type>Холодные закуски</type>
     </dish>
 
@@ -161,6 +187,7 @@
         <image>http:\\www.training.by\image.jpg</image>
         <name>Оливки, маслины</name>
         <portion>50</portion>
+        <price><value>150</value></price>
         <type>Холодные закуски</type>
     </dish>
 
@@ -168,6 +195,7 @@
         <image>http:\\www.training.by\image.jpg</image>
         <name>Лимон</name>
         <portion>60</portion>
+        <price><value>150</value></price>
         <type>Холодные закуски</type>
     </dish>
 
@@ -175,6 +203,7 @@
         <image>http:\\www.training.by\image.jpg</image>
         <name>Мацони</name>
         <portion>300</portion>
+        <price><value>150</value></price>
         <type>Холодные закуски</type>
     </dish>
 
@@ -189,6 +218,7 @@
         <name>Лобио с шампиньонами</name>
         <description>Фасоль с шампиньонами и грецким орехом</description>
         <portion>105</portion>
+        <price><value>150</value></price>
         <type>Горячие закуски</type>
     </dish>
 
@@ -273,6 +303,7 @@
         <name>Глазунья</name>
         <description>2 яйца (на выбор: ветчина, сыр, помидоры)</description>
         <portion>150</portion>
+        <price><value>150</value></price>
         <type>Завтраки</type>
     </dish>
 
@@ -280,6 +311,7 @@
         <image>http:\\www.training.by\image.jpg</image>
         <name>Омлет</name>
         <portion>100</portion>
+        <price><value>150</value></price>
         <type>Завтраки</type>
     </dish>
 
@@ -288,6 +320,7 @@
         <name>Блинчики с мясом</name>
         <description>Жаренные блинчики с мясом</description>
         <portion>150</portion>
+        <price><value>150</value></price>
         <type>Завтраки</type>
     </dish>
 

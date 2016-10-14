@@ -24,7 +24,7 @@
             <element name="name" type="tnc:NotEmptyString"/>
             <element name="description" type="tnc:NotEmptyString" minOccurs="0"/>
             <element name="portion" type="tnc:Portion"/>
-            <element name="price" type="tnc:Price" minOccurs="0"/>
+            <element name="price" type="tnc:Price"/>
             <element name="type" type="tnc:DishTypeEnum"/>
         </all>
         <attribute name="id" type="ID" use="required"/>
@@ -32,7 +32,7 @@
 
     <complexType name="Price">
         <choice>
-            <element name="value" type="positiveInteger"/>
+            <element name="value" type="tnc:PositiveDouble"/>
             <element name="position" type="tnc:PricePosition" minOccurs="1" maxOccurs="unbounded"/>
         </choice>
     </complexType>
@@ -40,7 +40,7 @@
     <complexType name="PricePosition">
         <sequence>
             <element name="name" type="tnc:NotEmptyString"/>
-            <element name="value" type="positiveInteger" minOccurs="0"/>
+            <element name="value" type="tnc:PositiveDouble"/>
         </sequence>
     </complexType>
 
@@ -59,6 +59,12 @@
     <simpleType name="NotEmptyAnyUri">
         <restriction base="anyURI">
             <minLength value="1"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="PositiveDouble">
+        <restriction base="double">
+            <minInclusive value="0"/>
         </restriction>
     </simpleType>
 
