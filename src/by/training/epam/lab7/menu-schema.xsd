@@ -23,7 +23,7 @@
             <element name="description" type="tnc:NotEmptyString" minOccurs="0"/>
             <element name="portion" type="tnc:Portion"/>
             <element name="price" type="tnc:Price">
-                <unique name="unique-dish-price-name">
+                <unique name="unique-price-position-name">
                     <selector xpath="price-position"/>
                     <field xpath="@name"/>
                 </unique>
