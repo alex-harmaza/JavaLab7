@@ -33,15 +33,16 @@
     <complexType name="Price">
         <choice>
             <element name="value" type="tnc:PositiveDouble"/>
-            <element name="position" type="tnc:PricePosition" minOccurs="1" maxOccurs="unbounded"/>
+            <element name="price-position" type="tnc:PricePosition" minOccurs="1" maxOccurs="unbounded"/>
         </choice>
     </complexType>
-
+    
     <complexType name="PricePosition">
-        <sequence>
-            <element name="name" type="tnc:NotEmptyString"/>
-            <element name="value" type="tnc:PositiveDouble"/>
-        </sequence>
+        <simpleContent>
+            <extension base="tnc:PositiveDouble">
+                <attribute name="name" type="tnc:NotEmptyString" use="required"/>
+            </extension>
+        </simpleContent>
     </complexType>
 
     <simpleType name="Portion">

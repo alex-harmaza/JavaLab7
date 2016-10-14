@@ -74,18 +74,8 @@
         <name>Ассорти баклажаны</name>
         <description>Жаренные баклажаны с помидорами</description>
         <price>
-            <position>
-                <name>с помидорами</name>
-                <value>150</value>
-            </position>
-            <position>
-                <name>с чесноком</name>
-                <value>150</value>
-            </position>
-            <position>
-                <name>с орехами</name>
-                <value>150</value>
-            </position>
+            <price-position name="с помидорами">150</price-position>
+            <price-position name="с орехами">150</price-position>
         </price>
         <portion>150/10</portion>
         <type>Холодные закуски</type>
@@ -227,14 +217,8 @@
         <name>Жульен</name>
         <portion>120/1</portion>
         <price>
-            <position>
-                <name>с курицей</name>
-                <value>145</value>
-            </position>
-            <position>
-                <name>с курицей</name>
-                <value>155</value>
-            </position>
+            <price-position name="с курицей">145</price-position>
+            <price-position name="с грибами">155</price-position>
         </price>
         <type>Горячие закуски</type>
     </dish>
@@ -261,15 +245,8 @@
         <name>Креветки</name>
         <portion>120/30</portion>
         <price>
-            <position>
-                <name>отварные</name>
-                <value>135</value>
-            </position>
-
-            <position>
-                <name>жаренные</name>
-                <value>135</value>
-            </position>
+            <price-position name="отварные">135</price-position>
+            <price-position name="жаренные">135</price-position>
         </price>
         <type>Горячие закуски</type>
     </dish>
