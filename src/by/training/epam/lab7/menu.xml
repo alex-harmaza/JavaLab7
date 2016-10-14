@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <menu:dishes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xmlns:menu="http://www.training.by/dishes"
-             xsi:schemaLocation="http://www.training.by/dishes  menu-schema.xsd">
+             xmlns:menu="http://www.training.by/menu"
+             xsi:schemaLocation="http://www.training.by/menu  menu-schema.xsd">
 
     <!-- Холодные закуски -->
 

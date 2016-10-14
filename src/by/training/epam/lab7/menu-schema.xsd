@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <schema xmlns="http://www.w3.org/2001/XMLSchema"
-        targetNamespace="http://www.training.by/dishes"
-        xmlns:tnc="http://www.training.by/dishes">
+        targetNamespace="http://www.training.by/menu"
+        xmlns:tnc="http://www.training.by/menu">
 
     <element name="dishes">
         <complexType>
@@ -18,7 +18,7 @@
 
     <complexType name="Dish">
         <all>
-            <element name="image" type="tnc:NotEmptyAnyUri" />
+            <element name="image" type="tnc:NotEmptyAnyUri"/>
             <element name="name" type="tnc:NotEmptyString"/>
             <element name="description" type="tnc:NotEmptyString" minOccurs="0"/>
             <element name="portion" type="tnc:Portion"/>
