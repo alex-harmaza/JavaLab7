@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-
 <schema xmlns="http://www.w3.org/2001/XMLSchema"
-        targetNamespace="www.training.by/dishes"
-        xmlns:tnc="www.training.by/dishes"
-        elementFormDefault="qualified">
+        targetNamespace="http://www.training.by/dishes"
+        xmlns:tnc="http://www.training.by/dishes">
 
     <element name="dishes">
         <complexType>
@@ -24,7 +22,12 @@
             <element name="name" type="tnc:NotEmptyString"/>
             <element name="description" type="tnc:NotEmptyString" minOccurs="0"/>
             <element name="portion" type="tnc:Portion"/>
-            <element name="price" type="tnc:Price"/>
+            <element name="price" type="tnc:Price">
+                <unique name="unique-dish-price-name">
+                    <selector xpath="price-position"/>
+                    <field xpath="@name"/>
+                </unique>
+            </element>
             <element name="type" type="tnc:DishTypeEnum"/>
         </all>
         <attribute name="id" type="ID" use="required"/>
